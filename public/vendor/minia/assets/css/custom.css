@@ -1,0 +1,21 @@
+.error {
+    color: red;
+    font-size: 11px;
+}
+
+.no-outline {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    /* background-color: #eee; */
+}
+
+.no-outline:focus {
+    outline: none;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: white;
+}
+
